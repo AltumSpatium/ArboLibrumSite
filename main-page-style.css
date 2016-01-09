@@ -7,7 +7,7 @@ header {
     background: rgb(24, 155, 130);
     height: 100px;
     width: 100%;
-    /*font-family: 'Exo 2', cursive, sans-serif;*/
+    font-family: 'Exo 2', cursive, sans-serif;
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Fira Sans', sans-serif;
     position: fixed;
@@ -24,9 +24,18 @@ header {
     margin-left: 5px;
 }
 
+#header a {
+    text-decoration: none;
+    float: left;
+    font-size: 40px;
+    margin-top: 30px;
+    color: rgb(94, 191, 173);
+}
+
 .navigation {
     float: left;
     height: 80px;
+    font-size: 20px;
     margin-top: 10px;
     margin-left: 100px;
 }
@@ -43,7 +52,7 @@ header {
     display: block;
     height: 40px;
     line-height: 40px;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .navigation ul li a:hover {
@@ -55,8 +64,24 @@ header {
 main {
     height: 844px;
     background: #ffffff;
-    font-size: 60px;
     padding-top: 105px;
+    margin-left: 5px;
+}
+
+#content {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#content h1 {
+    font-size: 56px;
+    text-align: center;
+    margin: auto;
+}
+
+#content p {
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 /* Style of site's footer */
