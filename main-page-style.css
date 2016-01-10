@@ -1,10 +1,8 @@
-main, footer {
-    min-width: 1500px;
-}
-
 /* Style of site's main part */
+
 main {
     height: 844px;
+    min-width: 1500px;
     background: #ffffff;
     padding-top: 105px;
     margin-left: 5px;
@@ -25,10 +23,4 @@ main {
     font-size: 30px;
     margin-top: 40px;
     text-align: center;
-}
-
-/* Style of site's footer */
-footer {
-    height: 100px;
-    background: rgb(94, 191, 173);
 }
