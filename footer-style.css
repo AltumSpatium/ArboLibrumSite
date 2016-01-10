@@ -1,0 +1,29 @@
+/* Style of site's footer */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background: rgb(94, 191, 173);
+}
+
+#language {
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    margin-left: 855px;
+    padding-top: 40px;
+    line-height: 20px;
+    height: 20px;
+}
+
+#language ul li {
+    float: left;
+    position: relative;
+}
+
+#language ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+}
