@@ -22,9 +22,9 @@ main {
 }
 
 #info {
-    height: 128px;
+    height: 150px;
     margin-top: 40px;
-    margin-left: 631px;
+    margin-left: 578px;
 }
 
 #info ul li {
@@ -36,18 +36,18 @@ main {
     color: #fff;
     text-decoration: none;
     text-align: center;
-    line-height: 128px;
-    height: 128px;
+    line-height: 150px;
+    height: 150px;
     display: block;
 }
 
 .name {
-    width: 128px;
-    height: 128px;
+    width: 150px;
+    height: 150px;
     opacity: 0;
     background: rgba(0, 0, 0, 0);
     position: absolute;
-    font-size: 12px;
+    font-size: 14px;
     display: block;
 }
 
@@ -62,7 +62,7 @@ main {
 #info .dropdown {
     position: absolute;
     top: 100%;
-    width: 128px;
+    width: 150px;
     background: #25b196;
     display: none;
     z-index: 99;
