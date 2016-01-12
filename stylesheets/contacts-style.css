@@ -49,10 +49,11 @@ main {
     position: absolute;
     font-size: 14px;
     display: block;
+	transition: 0.2s ease-in-out;
 }
 
 .name p {
-    padding-top: 50px;
+    
 }
 
 #info ul li a:hover {
@@ -63,9 +64,10 @@ main {
     position: absolute;
     top: 100%;
     width: 150px;
-    background: #25b196;
+    background: #468347;
     display: none;
     z-index: 99;
+    transition: 0.2s ease-in-out;
 }
 
 #info .dropdown li {
@@ -79,7 +81,8 @@ main {
 }
 
 #info .dropdown li a:hover {
-    background: #3fe5c5;
+    background: #65bc66;
+    transition: 0.2s ease-in-out;
 }
 
 #info li:hover .dropdown {
